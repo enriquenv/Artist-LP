@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Prata&family=Rock+Salt&display=swap');
+
+body {
+    background-color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body header {
+    background-color: white;
+}
+
+body header p {
+    font-family: 'Rock Salt', cursive;
+    display: inline-block;
+    padding-left: 2.5%;
+}
+
+body header ul {
+    /* display: inline-block; */
+    text-align: right;
+    width: 25%;
+    padding-right: 2.5%;
+    float: right;
+}
+
+body header ul li {
+    display: inline-block;
+    text-align: right;
+    padding-left: 2.5%;
+}
+
+body header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+body main #hero {
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 2.5%;
+}
+
+body main #hero > p:nth-of-type(1) {
+    font-family: 'Open Sans', sans-serif;
+    color: #B9B9B9;
+    margin: 0;
+    letter-spacing: 6px;
+}
+
+body main #hero h1 {
+    font-family: 'Prata', serif;
+    font-size: 6em;
+    font-weight: lighter;
+    color: #333333;
+    margin: 0;
+}
+
+body main #hero section article {
+    display: inline-block;
+    padding-right: 10%;
+}
+
+body main #hero section article h3 {
+    letter-spacing: 6px;
+    font-size: .8em;
+    font-weight: bolder;
+}
+
+body main #hero section article p {
+    color: #B9B9B9;
+    font-size: smaller;
+}
+
+body main #hero > div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+body main #hero a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+body main #hero a:hover {
+    background-color: grey;
+    color: white;
+}
+
+body main #featured {
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 2.5%;
+}
+
+body main #featured > p {
+        font-family: 'Open Sans', sans-serif;
+        color: #B9B9B9;
+        margin: 0;
+        letter-spacing: 6px;
+        text-align: center;
+} 
+
+body main #featured > h2 {
+    text-align: center;
+    font-family: 'Prata', serif;
+    font-size: 3em;
+    font-weight: lighter;
+    color: #333333;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+body main #featured div {
+    padding-left: 5%;
+}
+
+body main #featured div article {
+    display: inline-block;
+    text-align: center;
+}
+
+body main #featured div article img {
+    width: 80%;
+    outline: 1px solid black;
+}
+
+body main #featured div article p:nth-of-type(1) {
+   font-weight: bolder;
+   font-size: .9em;
+}
+
+body main #featured div article p:nth-of-type(2) {
+    font-weight: lighter;
+    font-size: .7em;
+ }
+
+footer {
+    background-color: white;
+    color: white;
+}
+
+footer p {
+    display: inline-block;
+    padding-left: 2.5%;
+    color: #B9B9B9;
+    font-size: .7em;
+}
+
+footer ul {
+    float: right;
+    padding-right: 2.5%;
+}
+
+footer ul li {
+    display: inline-block;
+    text-align: right;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
