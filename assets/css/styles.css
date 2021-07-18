@@ -5,10 +5,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-body header {
-    background-color: white;
-}
-
 body header p {
     font-family: 'Rock Salt', cursive;
     display: inline-block;
@@ -16,7 +12,6 @@ body header p {
 }
 
 body header ul {
-    /* display: inline-block; */
     text-align: right;
     width: 25%;
     padding-right: 2.5%;
@@ -36,6 +31,8 @@ body header ul li a {
 
 body main #hero {
     background-color: white;
+    background-image: url(/assets/img/photo-1506494491502-7563f654329e.jpeg);
+    background-position: top left;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 2.5%;
@@ -88,6 +85,10 @@ body main #hero a {
 body main #hero a:hover {
     background-color: grey;
     color: white;
+}
+
+body main hr {
+    margin: 0 2.5%;
 }
 
 body main #featured {
