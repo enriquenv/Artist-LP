@@ -31,7 +31,7 @@ body header ul li a {
 
 body main #hero {
     background-color: white;
-    background-image: url(/assets/img/photo-1506494491502-7563f654329e.jpeg);
+    background-image: url(../img/photo-1506494491502-7563f654329e.jpeg);
     background-position: top left;
     padding-top: 10vh;
     padding-bottom: 10vh;
