@@ -117,7 +117,7 @@ body main #featured > h2 {
 }
 
 body main #featured div {
-    padding-left: 5%;
+    text-align: center;
 }
 
 body main #featured div article {
